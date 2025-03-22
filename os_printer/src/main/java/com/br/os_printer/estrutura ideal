@@ -1,0 +1,43 @@
+src/main/java/com/seuprojeto
+├── config               # Configurações da aplicação (segurança, CORS, etc.)
+│   ├── SecurityConfig.java
+│   ├── CorsConfig.java
+│   ├── SwaggerConfig.java
+│
+├── controllers          # Controllers (Camada de apresentação)
+│   ├── UserController.java
+│   ├── AuthController.java
+│   ├── EquipmentController.java
+│
+├── entities             # Entidades (Representação das tabelas do banco)
+│   ├── User.java
+│   ├── Role.java
+│   ├── Equipment.java
+│
+├── repositories         # Repositórios (Acesso ao banco de dados)
+│   ├── UserRepository.java
+│   ├── EquipmentRepository.java
+│
+├── services             # Serviços (Regras de negócio)
+│   ├── UserService.java
+│   ├── EquipmentService.java
+│
+├── dtos                 # Data Transfer Objects (Transferência de dados entre camadas)
+│   ├── UserDTO.java
+│   ├── EquipmentDTO.java
+│   ├── AuthRequestDTO.java
+│
+├── exceptions           # Manipulação de exceções globais
+│   ├── GlobalExceptionHandler.java
+│   ├── ResourceNotFoundException.java
+│
+├── security             # Segurança da aplicação (Autenticação e autorização)
+│   ├── JwtTokenProvider.java
+│   ├── JwtAuthenticationFilter.java
+│   ├── CustomUserDetailsService.java
+│
+├── utils                # Utilitários e helpers
+│   ├── PasswordEncoderUtil.java
+│   ├── EmailValidator.java
+│
+└── Application.java      # Classe principal da aplicação
