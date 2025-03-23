@@ -1,4 +1,4 @@
-package main.java.com.br.os_printer.entities;
+package com.br.os_printer.entities;
 
 public abstract class  Users {
     
